@@ -1,0 +1,164 @@
+.app {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #f8f9fd;
+}
+
+/* input[type="text"],
+input[type="email"],
+input[type="password"]  */
+.signup{
+  height: 35px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.grey_color {
+  color: #000;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #01d28e;
+  border: 1px solid #01d28e;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+  background: #6cf0c2;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  background-color: white;
+  padding: 2rem;
+  width: fit-content;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.input-container{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}
+
+.form {
+  background-color: white;
+  padding: 2rem;
+  width: fit-content;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+select {
+  width: 300px;
+  height: 35px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.chat {
+  position: relative;
+  background-color: white;
+  padding: 2rem;
+  width: 600px;
+  height: fit-content;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.send-button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+  font-size: 15px;
+  background: #01d28e;
+  border: 1px solid #01d28e;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.send-button:hover {
+  background: #6cf0c2;
+}
+
+
+.message-input-container{
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  height: 45px;
+}
+
+.message-container {
+  position: relative;
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.message-container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+.message-container p {
+  position: relative;
+}
+
+.messages-list {
+  list-style-type: none;
+}
+
+.login-signup {
+  font-size: 20px;
+  margin: 20px;
+  color: #01d28e;
+  cursor: pointer;
+}
+
+.login-signup:hover {
+  color: #6cf0c2;
+}
